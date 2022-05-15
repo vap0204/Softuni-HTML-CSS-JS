@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:pink;
+}
+#main-nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+#main-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+#ham{
+    display: none;
+}
+
+@media(max-width:768px){
+    body{
+        background: green;
+    }
+    #main-nav ul li{
+        display: block;
+        background: #000;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 1px;
+        padding: 6px;
+    }
+    #ham{
+        display: block;
+        font-size: 48px;
+        position: fixed;
+        right: 0;
+    }
+
+}
+
+@media (max-width:480px){
+    body{
+        background:red ;
+    }
+}
+ 
